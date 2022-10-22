@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+main{
+    background-color: #000000;
+}
+
+section.top-buttons{
+    text-align: end;
+    height: 50px;
+
+}
+
+section.webcams{
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: calc(100vh - 100px);
+    padding: 0 6rem 1rem 6rem;
+
+}
+
+div.webcam{
+    position: relative;
+    width: 130px;
+    height: 80px;
+    margin: 2px;
+    background-color: yellowgreen;
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+    height: 50px;
+}
+
+.start-icons{
+    height: 100%;
+    width: 15%;
+    background-color: tomato;
+}
+
+.middle-icons{
+    height: 100%;
+    width: 40%;
+    background-color: tomato;
+}
+
+.end-meeting{
+    height: 100%;
+    width: 15%;
+    background-color: tomato;
+}
